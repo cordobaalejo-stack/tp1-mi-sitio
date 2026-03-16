@@ -1,0 +1,51 @@
+/* ===== RESET BASICO ===== */
+* {
+margin: 0; /* Elimina margenes por defecto */
+padding: 0; /* Elimina relleno por defecto */
+box-sizing: border-box; /* Los bordes se incluyen en el ancho */
+}
+/* ===== TIPOGRAFIA BASE ===== */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 16px; /* Tamanio base */
+    line-height: 1.6; /* Espacio entre lineas */
+    color: #333333; /* Gris oscuro para el texto */
+    background-color: #f5f5f5; /* Fondo gris claro */
+    }
+/* ===== HEADER ===== */
+header {
+    background-color: #0e417c; /* Azul primario */
+    color: white;
+    text-align: center;
+    padding: 2rem; /* Espacio interno */
+    }
+/* ===== NAV ===== */
+nav {
+    background-color: #0f2d5a; /* Azul oscuro */
+    padding: 1rem;
+    text-align: center;
+    
+    }
+    nav a {
+        color: white;
+        margin: 0 1rem; /* Espacio entre enlaces */
+        text-decoration: none;
+        }
+/* ===== FOOTER ===== */
+footer {
+    background-color: #522929;
+    color: white;
+    text-align: center;
+    }
+/* ===== MAIN ===== */
+section {
+    background-color: white;
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    }
+ul, ol {
+    padding-left: 2rem; /* Indentacion de la lista */
+    margin-bottom: 1rem;
+    }
