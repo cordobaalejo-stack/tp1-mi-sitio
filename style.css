@@ -49,3 +49,144 @@ ul, ol {
     padding-left: 2rem; /* Indentacion de la lista */
     margin-bottom: 1rem;
     }
+
+* fondo general */
+body {
+  background: linear-gradient(135deg, #3B82F6, #06B6D4);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* formulario */
+form {
+  max-width: 420px;
+  margin: 50px auto;
+  background: #FFFFFF;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* contenedor de campo */
+.campo {
+  margin-bottom: 18px;
+}
+
+/* labels */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #374151;
+}
+
+/* inputs y select */
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #D1D5DB;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+
+/* placeholder */
+input::placeholder {
+  color: #9CA3AF;
+}
+
+/* foco */
+input:focus, select:focus {
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.2);
+  outline: none;
+}
+
+/* ✅ válido */
+input:valid,
+select:valid {
+  border-color: #22C55E;
+  background-color: #F0FDF4;
+}
+
+/* ❌ inválido SOLO si escribió */
+input:not(:placeholder-shown):invalid,
+select:invalid {
+  border-color: #EF4444;
+  background-color: #FEF2F2;
+}
+
+/* foco + válido */
+input:focus:valid {
+  border-color: #16A34A;
+  box-shadow: 0 0 0 3px rgba(34,197,94,0.25);
+}
+
+/* foco + inválido */
+input:focus:not(:placeholder-shown):invalid {
+  border-color: #DC2626;
+  box-shadow: 0 0 0 3px rgba(220,38,38,0.25);
+}
+
+/* textos de ayuda */
+.ayuda {
+  display: block;
+  font-size: 12px;
+  color: #6B7280;
+  margin-top: 4px;
+}
+
+/* errores ocultos por defecto */
+.error {
+  display: none;
+  font-size: 12px;
+  color: #DC2626;
+  margin-top: 4px;
+}
+
+/* mostrar error si es inválido */
+input:not(:placeholder-shown):invalid ~ .error,
+select:invalid ~ .error {
+  display: block;
+}
+
+/* botón */
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #3B82F6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* hover botón */
+button:hover {
+  background: #2563EB;
+}
+
+/* mensaje de éxito */
+.exito {
+  display: none;
+  text-align: center;
+  color: #16A34A;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* mostrar éxito si todo es válido (solo visual) */
+form:valid .exito {
+  display: block;
+}
+
+body {
+  background: linear-gradient(135deg, #3B82F6, #1E40AF);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
