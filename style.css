@@ -37,7 +37,7 @@ footer {
     color: white;
     text-align: center;
     }
-/* ===== MAIN ===== */
+/*  MAIN  */
 section {
     background-color: white;
     border-radius: 8px; /* Esquinas redondeadas */
@@ -49,6 +49,7 @@ ul, ol {
     padding-left: 2rem; /* Indentacion de la lista */
     margin-bottom: 1rem;
     }
+
 
 /* Fondo celeste degradado */
 body {
@@ -177,4 +178,17 @@ button:hover {
   font-weight: bold;
   text-align: center;
   display: none;
-}
+
+/* Animación */
+@keyframes fondoAnimado {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+> feature/mejoras-estilos
+}}
