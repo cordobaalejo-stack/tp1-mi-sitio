@@ -387,6 +387,6 @@ footer {
 /* ===== PANTALLAS GRANDES (>= 1440px) ===== */
 @media (min-width: 1440px) {
   .layout {
-    max-width: 1400px; /* más ancho */
+    max-width: 1400px; /*más ancho*/
   }
 }
