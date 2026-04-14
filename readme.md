@@ -12,5 +12,7 @@ En el sitio web que cree se puede observar una parte con un titulo que tiene mi 
 # Ruta de instalacion de git #
 */mingw64/bin/git*
 
+
+
 # Tecnologias usadas hasta el dia de la fecha #
 *(HTML5, CSS3, Flexbox, Grid, Responsive)* 
