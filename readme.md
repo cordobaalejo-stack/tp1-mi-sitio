@@ -11,3 +11,6 @@ En el sitio web que cree se puede observar una parte con un titulo que tiene mi 
 *Es mas facil y rapido usar la terminal ya que con algunos comandos las cosas la podes hacer en segundo y si lo hacemos con la interfaz es mas tardado tambien hay opciones no disponibles en la interfaz grafica*
 # Ruta de instalacion de git #
 */mingw64/bin/git*
+
+# Tecnologias usadas hasta el dia de la fecha #
+*(HTML5, CSS3, Flexbox, Grid, Responsive)* 
