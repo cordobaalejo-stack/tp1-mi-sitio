@@ -390,3 +390,9 @@ footer {
     max-width: 1400px; /*más ancho*/
   }
 }
+
+
+.logo {
+  width: 70px;   /* tamaño chico */
+  height: auto;
+}
